@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="module" source-language="en-US" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="2f40eb07e024b3fbef5710eddf1ff173">
+        <source>We respect your privacy</source>
+        <target>Szanujemy Twoją prywatność</target>
+      </trans-unit>
+      <trans-unit id="c5d42af8beaed243a8d88d4d805a75e7">
+        <source>We use cookies to make the shop work. With your consent we also use analytics and marketing cookies. You can change your choice at any time with the "Cookie settings" link in the footer.</source>
+        <target>Używamy plików cookies, żeby sklep działał poprawnie. Za zgodą korzystamy też z cookies analitycznych i marketingowych. Wybór można zmienić w każdej chwili linkiem „Ustawienia cookies” w stopce.</target>
+      </trans-unit>
+      <trans-unit id="3d0238bf1643e39636b1f5040af3bf6f">
+        <source>Accept all</source>
+        <target>Akceptuj wszystkie</target>
+      </trans-unit>
+      <trans-unit id="4b2c7498c1688f86f9207b731c5d0cf2">
+        <source>Reject optional</source>
+        <target>Odrzuć opcjonalne</target>
+      </trans-unit>
+      <trans-unit id="7f7b3dd7199a579389371c05d8ead8ba">
+        <source>Customise settings</source>
+        <target>Dostosuj ustawienia</target>
+      </trans-unit>
+      <trans-unit id="dc1c628b93d0c2f54231c95b76e64ee3">
+        <source>Save my preferences</source>
+        <target>Zapisz moje preferencje</target>
+      </trans-unit>
+      <trans-unit id="2d8dee39e34b64851c9a998b65f3b4ca">
+        <source>Necessary (required)</source>
+        <target>Niezbędne (wymagane)</target>
+      </trans-unit>
+      <trans-unit id="d0bc3a4ce646b061698d15873d9a74d0">
+        <source>They keep the cart, the login, the choice of language and currency, and your cookie choices working. They cannot be switched off.</source>
+        <target>Zapewniają działanie koszyka, logowania, wyboru języka i waluty oraz zapamiętanie wyborów dotyczących cookies. Nie można ich wyłączyć.</target>
+      </trans-unit>
+      <trans-unit id="70609fd5f20f01fb72b66e13effec37e">
+        <source>Analytics and statistics</source>
+        <target>Analityczne i statystyczne</target>
+      </trans-unit>
+      <trans-unit id="6393a067df0004b67e7b0a15a30bc370">
+        <source>They show how visitors use the shop: which pages they view, where they come from and how long they stay. They are used to improve the shop.</source>
+        <target>Pokazują, jak odwiedzający korzystają ze sklepu: które strony oglądają, skąd przychodzą i jak długo zostają. Służą do ulepszania sklepu.</target>
+      </trans-unit>
+      <trans-unit id="d15435f0a25abb26c393182266f742f7">
+        <source>Marketing and advertising</source>
+        <target>Marketingowe i reklamowe</target>
+      </trans-unit>
+      <trans-unit id="b35839f423eefdf2aa0114273039237a">
+        <source>They measure how advertising campaigns perform and let ads match your interests.</source>
+        <target>Mierzą skuteczność kampanii reklamowych i pozwalają dopasować reklamy do zainteresowań.</target>
+      </trans-unit>
+      <trans-unit id="a3debabee7a11de0af301d5b65c86339">
+        <source>Cookie policy</source>
+        <target>Polityka cookies</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="module" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="75099e9d6a57d9c3157e7731e4d10040">
+        <source>M4P Cookies Consent</source>
+        <target>M4P Cookies Consent</target>
+      </trans-unit>
+      <trans-unit id="65825313188c417b8b5a480594c554fd">
+        <source>A cookie consent banner with a preference panel and consent per category.</source>
+        <target>A cookie consent banner with a preference panel and consent per category.</target>
+      </trans-unit>
+      <trans-unit id="f88c0ad7effdb13aaca2f998318961ce">
+        <source>Uninstall the module? Its settings will be deleted.</source>
+        <target>Uninstall the module? Its settings will be deleted.</target>
+      </trans-unit>
+      <trans-unit id="7f455ff90381c487cf111cab89968a02">
+        <source>The policy address must be a full http:// or https:// address.</source>
+        <target>The policy address must be a full http:// or https:// address.</target>
+      </trans-unit>
+      <trans-unit id="9a7e58ee13cb727cb7c4acc68f4cafe5">
+        <source>Settings saved.</source>
+        <target>Settings saved.</target>
+      </trans-unit>
+      <trans-unit id="de62775a71fc2bf7a13d7530ae24a7ed">
+        <source>General settings</source>
+        <target>General settings</target>
+      </trans-unit>
+      <trans-unit id="6020acb1ca244d428ff47a64c62244af">
+        <source>Policy address</source>
+        <target>Policy address</target>
+      </trans-unit>
+      <trans-unit id="966707fa1af5f8c33362878162e43274">
+        <source>Full address of the privacy or cookie policy page. Leave it empty to hide the link.</source>
+        <target>Full address of the privacy or cookie policy page. Leave it empty to hide the link.</target>
+      </trans-unit>
+      <trans-unit id="91269ed6a7fee4f5f6972f69a339128c">
+        <source>Consent valid for (days)</source>
+        <target>Consent valid for (days)</target>
+      </trans-unit>
+      <trans-unit id="316214f5e47f13ce34a7bb48b62aeefd">
+        <source>Banner position</source>
+        <target>Banner position</target>
+      </trans-unit>
+      <trans-unit id="2ad9d63b69c4a10a5cc9cad923133bc4">
+        <source>Bottom</source>
+        <target>Bottom</target>
+      </trans-unit>
+      <trans-unit id="a4ffdcf0dc1f31b9acaf295d75b51d00">
+        <source>Top</source>
+        <target>Top</target>
+      </trans-unit>
+      <trans-unit id="6682f998476937ad97d42f259a4cf3a8">
+        <source>Show the "Analytics" category</source>
+        <target>Show the "Analytics" category</target>
+      </trans-unit>
+      <trans-unit id="acd3071576c47005193392d73abed6cb">
+        <source>Show the "Marketing" category</source>
+        <target>Show the "Marketing" category</target>
+      </trans-unit>
+      <trans-unit id="e077b0b762b1d2da171a5ca072ade749">
+        <source>Banner texts</source>
+        <target>Banner texts</target>
+      </trans-unit>
+      <trans-unit id="b78a3223503896721cca1303f776159b">
+        <source>Title</source>
+        <target>Title</target>
+      </trans-unit>
+      <trans-unit id="9dffbf69ffba8bc38bc4e01abf4b1675">
+        <source>Text</source>
+        <target>Text</target>
+      </trans-unit>
+      <trans-unit id="3a21ad4595f0ea3226e9873c62f5c9bc">
+        <source>Button: accept all</source>
+        <target>Button: accept all</target>
+      </trans-unit>
+      <trans-unit id="5d39fdb19b402b7792ab323d719a1685">
+        <source>Button: reject optional</source>
+        <target>Button: reject optional</target>
+      </trans-unit>
+      <trans-unit id="6ac30032a1c94cd1e29c93930bea6c13">
+        <source>Button: customise</source>
+        <target>Button: customise</target>
+      </trans-unit>
+      <trans-unit id="24e632525989dad878a08214be439623">
+        <source>Button: save the choice</source>
+        <target>Button: save the choice</target>
+      </trans-unit>
+      <trans-unit id="22d1da98f6655eb84a525895500dc849">
+        <source>Policy link label</source>
+        <target>Policy link label</target>
+      </trans-unit>
+      <trans-unit id="526c797f7d5c35a1224ca0e10a996736">
+        <source>Cookie categories</source>
+        <target>Cookie categories</target>
+      </trans-unit>
+      <trans-unit id="a80e7d19cd0c38d2196a762741be9e36">
+        <source>Necessary – name</source>
+        <target>Necessary – name</target>
+      </trans-unit>
+      <trans-unit id="69832fef5d4acb25e114a3563c184bc5">
+        <source>Necessary – description</source>
+        <target>Necessary – description</target>
+      </trans-unit>
+      <trans-unit id="dc071e8c340e8d61a3ec09b3119bf80f">
+        <source>Analytics – name</source>
+        <target>Analytics – name</target>
+      </trans-unit>
+      <trans-unit id="174627acdd8ac064eb5bd4c02f5253b5">
+        <source>Analytics – description</source>
+        <target>Analytics – description</target>
+      </trans-unit>
+      <trans-unit id="6d47223baba9d185b90e22a3679a9a36">
+        <source>Marketing – name</source>
+        <target>Marketing – name</target>
+      </trans-unit>
+      <trans-unit id="92a1e57bbf372cc7d5035a2f948406b9">
+        <source>Marketing – description</source>
+        <target>Marketing – description</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+  <name>m4p_cookies</name>
+  <displayName><![CDATA[M4P Cookies Consent]]></displayName>
+  <version><![CDATA[1.1.0]]></version>
+  <description><![CDATA[A cookie consent banner with a preference panel and consent per category.]]></description>
+  <author><![CDATA[Modules4Presta]]></author>
+  <tab><![CDATA[administration]]></tab>
+  <confirmUninstall><![CDATA[Uninstall the module? Its settings will be deleted.]]></confirmUninstall>
+  <is_configurable>1</is_configurable>
+  <need_instance>0</need_instance>
+  <limited_countries></limited_countries>
+</module>

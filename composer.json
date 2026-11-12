@@ -1,0 +1,17 @@
+{
+    "name": "modules4presta/m4p_cookies",
+    "description": "Cookie consent banner for PrestaShop with a preference panel and consent per category.",
+    "type": "prestashop-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nice Code sp. z o.o. (Modules4Presta)",
+            "email": "contact@modules4presta.io",
+            "homepage": "https://nice-code.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "homepage": "https://nice-code.com/pl/oferta/moduly-prestashop"
+}
