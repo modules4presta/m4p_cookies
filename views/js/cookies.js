@@ -65,10 +65,23 @@
         }
     }
 
+    var FOCUSABLE = 'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])';
+    var returnFocus = null;
+
+    function isModal(root) {
+        return root.getAttribute('aria-modal') === 'true';
+    }
+
     function showBanner(root) {
         root.hidden = false;
+        if (isModal(root)) {
+            returnFocus = document.activeElement;
+        }
         requestAnimationFrame(function () {
             root.classList.add('m4p-cookies--visible');
+            if (isModal(root)) {
+                (root.querySelector('[role="document"]') || root).focus({ preventScroll: true });
+            }
         });
     }
 
@@ -76,6 +89,27 @@
         root.classList.remove('m4p-cookies--visible');
         document.body.classList.remove('m4p-cookies-no-scroll');
         setTimeout(function () { root.hidden = true; }, 260);
+        if (returnFocus && typeof returnFocus.focus === 'function') {
+            returnFocus.focus({ preventScroll: true });
+        }
+        returnFocus = null;
+    }
+
+    function trapTab(root, event) {
+        var items = Array.prototype.filter.call(root.querySelectorAll(FOCUSABLE), function (el) {
+            return el.offsetParent !== null;
+        });
+        if (!items.length) { return; }
+        var first = items[0];
+        var last = items[items.length - 1];
+        var inside = root.contains(document.activeElement);
+        if (event.shiftKey && (document.activeElement === first || !inside)) {
+            event.preventDefault();
+            last.focus();
+        } else if (!event.shiftKey && (document.activeElement === last || !inside)) {
+            event.preventDefault();
+            first.focus();
+        }
     }
 
     function collectCategories(root) {
@@ -182,6 +216,18 @@
                         setView(root, 'banner');
                     }
                     break;
+            }
+        });
+
+        // Escape counts as rejecting the optional categories, the same as the reject button.
+        document.addEventListener('keydown', function (event) {
+            if (root.hidden || !root.classList.contains('m4p-cookies--visible')) { return; }
+            if (event.key === 'Escape') {
+                event.preventDefault();
+                applyChoice(root, 'none');
+                save(root, days, collectCategories(root));
+            } else if (event.key === 'Tab' && isModal(root)) {
+                trapTab(root, event);
             }
         });
 

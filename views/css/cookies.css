@@ -98,7 +98,7 @@
     border-top: none;
     border-bottom: none;
     border: 1px solid var(--m4p-cookies-subtle);
-    border-radius: 14px;
+    border-radius: var(--r-lg, 10px);
     max-height: 88vh;
     overflow-y: auto;
     padding: 28px 32px;
@@ -169,8 +169,8 @@
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    border: 1px solid transparent;
-    border-radius: 10px;
+    border: 1.5px solid transparent;
+    border-radius: var(--r-sm, 4px);
     cursor: pointer;
     transition:
         background 180ms ease,
@@ -237,7 +237,7 @@
 .m4p-cookies__category {
     padding: 16px 18px;
     border: 1px solid var(--m4p-cookies-subtle);
-    border-radius: 10px;
+    border-radius: var(--r-lg, 10px);
     background: var(--m4p-cookies-surface);
     transition: border-color 180ms ease, box-shadow 180ms ease;
 }

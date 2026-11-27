@@ -36,6 +36,7 @@ bundle that waits for the first interaction.
 - **Light** – one small script with `defer`, no library, no requests to third parties
 - **Themeable** – colours are CSS custom properties on `.m4p-cookies`
 - **Accessible** – a labelled dialog, real buttons and checkboxes, transitions off with `prefers-reduced-motion`
+- **Keyboard** – Escape rejects the optional categories, the same as the reject button
 
 ### What it does not do
 
@@ -112,6 +113,9 @@ Set the custom properties on `.m4p-cookies` in the theme stylesheet:
 
 The full list is at the top of `views/css/cookies.css`. Markup changes go into a template override
 in `themes/<theme>/modules/m4p_cookies/views/templates/hook/banner.tpl`.
+
+A template override that sets `aria-modal="true"` on `#m4p-cookies` turns the banner into a modal window:
+focus moves into it when it opens, Tab stays inside it and focus returns to the previous element when it closes.
 
 ## Frequently asked questions
 

@@ -4,6 +4,21 @@ All notable changes to this module are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the module uses
 [semantic versioning](https://semver.org/).
 
+## [1.2.0] - 2026-11-25
+
+### Added
+
+- Escape rejects the optional categories, the same as the reject button.
+- With `aria-modal="true"` on `#m4p-cookies` (set in a template override) the banner works as a modal window:
+  focus moves into it when it opens, Tab stays inside it and focus returns to the previous element when it closes.
+
+## [1.1.1] - 2026-11-19
+
+### Changed
+
+- Buttons use the theme's small radius `--r-sm` (4 px by default) and a 1.5 px line; the preferences window
+  and the category boxes use the theme's `--r-lg` (10 px by default).
+
 ## [1.1.0] - 2026-11-12
 
 First release under the MIT license, as `m4p_cookies`. Versions 1.0.x were published inside a shop as
